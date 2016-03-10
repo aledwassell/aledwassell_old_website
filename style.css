@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #b0b0b0;
+  padding: 0px;
+  margin: 0px;
+  color: #330033;
+  font-family: Helvetica, cursive, sans-serif;
+}
+header {
+	height: 100vh;
+  text-align: center;
+  background: -webkit-linear-gradient(left, #ffaa1f, #804f00); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #ffaa1f, #804f00); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #ffaa1f, #804f00); /* For Fx 3.6 to 15 */
+  background: linear-gradient(to right, #ffaa1f, #804f00); /* Standard syntax (must be last) */
+}
+.my_name {
+	font-size: 5em;
+	color: #8c8c8c;
+	padding: 20px;
+	margin: 50px 0 0 0;
+}
+h2 {
+	font-size: 50px;
+	color: rgba(255, 170, 31, 1);
+}
+header ul {
+  position: relative;
+  width: 40% auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header li {
+  float: right;
+  position: relative;
+}
+header li a {
+  position: relative;
+	font-size: 19px;
+  display: block;
+  color: #8c8c8c;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+li a:hover {background-color: rgba(255, 170, 31, 0.8);}
+}
+header img {
+	float: left;
+}
+
+.about_image {
+	margin: 40px;
+	float:left;
+}
+.about {
+	margin: 40px 0px 0px 0px;
+	border-radius: 90px;
+}
+.input_container {
+	margin-bottom: 40px;
+}
+.form_lable {
+	color: white;
+	display:inline;
+}
+input .text {
+	height: 20px;
+}
+input, textarea {
+	display: block;
+  border: 0;
+	border-radius: 5px;
+	margin: 10px auto;
+	width: 300px;
+  padding: 6px 12px ;
+  font-size: 18px;
+}
+input[type="submit"] {
+	margin: 0 auto;
+  background: rgba(255, 170, 31, 1);
+  color: white;
+}
+footer {
+  height: 100px;
+  background-color: #999999;
+  padding: 20px;
+  margin: auto;
+}
+footer nav li {
+  float: left;
+}
+footer nav li a {
+  font-size: 19px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
