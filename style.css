@@ -9,10 +9,10 @@ body {
 header {
 	height: 100vh;
   text-align: center;
-  background: -webkit-linear-gradient(left, #ffaa1f, #804f00); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(left, #ffaa1f, #804f00); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(left, #ffaa1f, #804f00); /* For Fx 3.6 to 15 */
-  background: linear-gradient(to right, #ffaa1f, #804f00); /* Standard syntax (must be last) */
+  background: -webkit-linear-gradient(left, #ffffff, #f1f1f1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #ffffff, #f1f1f1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #ffffff, #f1f1f1); /* For Fx 3.6 to 15 */
+  background: linear-gradient(to right, #ffffff, #f1f1f1); /* Standard syntax (must be last) */
 }
 .my_name {
 	font-size: 5em;
