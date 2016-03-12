@@ -25,6 +25,7 @@ h2 {
 	color: rgba(255, 170, 31, 1);
 }
 nav {
+  align: left; 
   display: inline-block;
   padding-left: 50% auto;
 }
