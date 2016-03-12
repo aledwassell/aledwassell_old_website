@@ -6,7 +6,7 @@ body {
   color: #330033;
   font-family: Helvetica, cursive, sans-serif;
 }
-header {
+#header {
 	height: 100vh;
   text-align: center;
   background: -webkit-linear-gradient(left, #ffffff, #f1f1f1); /* For Safari 5.1 to 6.0 */
@@ -48,8 +48,6 @@ header li a {
   text-align: center;
   padding: 20px 25px;
   text-decoration: none;
-}
-li a:hover {background-color: rgba(255, 170, 31, 0.8);}
 }
 .logo {
 	float: left;
