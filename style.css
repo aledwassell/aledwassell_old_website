@@ -24,6 +24,9 @@ h2 {
 	font-size: 50px;
 	color: rgba(255, 170, 31, 1);
 }
+nav {
+  display: inline-block;
+}
 header ul {
   position: relative;
   width: 40% auto;
@@ -37,9 +40,9 @@ header li {
   position: relative;
 }
 header li a {
+  display: inline;
   position: relative;
 	font-size: 19px;
-  display: block;
   color: #8c8c8c;
   text-align: center;
   padding: 20px 25px;
@@ -50,7 +53,7 @@ li a:hover {background-color: rgba(255, 170, 31, 0.8);}
 header img {
 	float: left;
 }
-
+.logo
 .about_image {
 	margin: 40px;
 	float:left;
