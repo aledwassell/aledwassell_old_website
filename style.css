@@ -25,7 +25,6 @@ h2 {
 	color: rgba(255, 170, 31, 1);
 }
 nav {
-  align: left; 
   display: inline-block;
   padding-left: 50% auto;
 }
@@ -51,6 +50,7 @@ header li a {
   text-decoration: none;
 }
 .logo {
+  align: left;
 	float: left;
   padding: 10px 10px 10px 50%;
 }
