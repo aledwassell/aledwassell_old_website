@@ -50,7 +50,7 @@ header li a {
 }
 li a:hover {background-color: rgba(255, 170, 31, 0.8);}
 }
-header img {
+.logo {
 	float: left;
 }
 .logo
