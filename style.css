@@ -5,3 +5,6 @@ ul {
 .header {
   padding: 15% 0 15% 0;
 }
+.jumbotron {
+  margin-bottom: 0;
+}
