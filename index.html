@@ -1,55 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang "en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="Aled Wassell">
-
-  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Aled Wassell</title>
-</head>
-<body>
-  <!--main header-->
-  <div id="header" class="outer">
-    <header class="inner">
-      <img src="images/Logo W + A.png" class="logo" alt="logo">
-      <nav>
-        <ul>
-          <li><a href="/play">Play</a></li>
-          <li><a href="/work">Work</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
-      </nav>
-      <h1 class="my_name">Aled Wassell</h1>
-      <h2>Original Design made simply!</h2>
-    </header>
-  </div>
-    <!--Main header-->
-  </div id="about">
-    <img class="about"src="images/aled.jpg" alt="profile"/>
-      <h1>About Aled Wassell</h1>
-      <p>
-        My name is Aled Wassell, I am a British expat currently studying to become junior frontend web developer.<br> I am currently living in Tokyo.
-      </p>
-  <section>
-    <h1>Follow Me.</h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-  </section>
-  <section>
-    <form class="form" action="index.html" method="post">
-      <div class="input_container">
-        <label for="name" class="form_lable">Name</label>
-          <input type="text" class="form" name="name" placeholder="Your name">
-        <label for="email" class="form_lable">Email</label>
-          <input type="email" name="email" placeholder="Your email">
-        <label for="comments" class="form_lable">Comments</label>
-          <textarea name="comments" class="form" rows="4" placeholder="Please write your comments here"></textarea>
-        <input type="submit">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="http://aledwassell.github.io/images/Logo%20W%20+%20A.png">
+      </a>
+      <div class="col-sm-4">
+        <h1 id="title"><a href="#">Aled Wassell</a></h1>
       </div>
-    </form>
-  </section>
-  <footer>
-    <h3>Copyright aledwassell.com &copy; 2016</h3>
-  </footer>
-  <script src="/Users/pc-user/Desktop/aled-wassell/main.js"></script>
+      <div class="col-sm-7">
+        <ul class="nav nav-pills">
+          <li><a href="#about">About Aled</a></li>
+          <li><a href="#codeing">Codeing Chops</a></li>
+          <li><a href="#design">Design</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container header">
+      <h2>Design Made Simply<small> using Bootstrap</small></h2>
+      <p>This is a short porfolio website to show off my HTML skillage.</p>
+    </div>
+  </div>
+  <div class="jumbotron"> <!-- Jumbotron about-->
+    <div class="container">
+      <div class="row">
+        <div class="space col-sm-12">
+        </div>
+        <div class="col-sm-4">
+          <img src="http://aledwassell.github.io/images/aled.jpg" class="img-circle" alt="Aled">
+        </div>
+
+        <div class="col-sm-8">
+          <h1 id="about">About Me</h1>
+          <p>My name is Aled Wassell, an aspiring web developer looking for my 'foot in the door'.<br>I've been using Free Code Camp for the past few months and its been a great learning curve.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- END Jumbotron about END-->
+
+  <div class="jumbotron"> <!-- Jumbotron CODEING-->
+    <div class="container">
+      <h1 id="codeing">Some Coding Chops<h1>
+        <p>Here I have some code I have been working on, it's all kid of beginner stuff but I hope I can impress potential employers.</p>
+    </div>
+  </div><!-- END Jumbotron CODEING END-->
+
+  <div class="jumbotron"> <!-- Jumbotron DESIGN-->
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <h1 id="design">Design</h1>
+          <p>These are some designs I have been working on.</p>
+        </div>
+      </div>
+    </div>
+  </div> <!-- END Jumbotron DESIGN END-->
+</div>
 </body>
+
 </html>
