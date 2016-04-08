@@ -2,9 +2,12 @@
 ul {
   padding: 20px 20px;
 }
+ul a {
+  color: #4d4d4d;
+}
 
-#title {
-  color: orange;
+.logo-name {
+  color: #ffaa1f;
 }
 
 .header {
@@ -12,7 +15,7 @@ ul {
 }
 
 .jumbotron {
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
 .about {
