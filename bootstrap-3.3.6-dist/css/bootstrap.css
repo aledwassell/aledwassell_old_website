@@ -4,9 +4,28 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-#title {
-  color: green;
+ul {
+  padding: 20px 20px;
+}
 
+#title {
+  color: orange;
+}
+
+.header {
+  padding: 15% 0 15% 0;
+}
+
+.jumbotron {
+  margin-bottom: 100px;
+}
+
+.about {
+  /*background-color: green;*/
+}
+
+.footer {
+  background-color: #8c8c8c;
 }
 
 html {
