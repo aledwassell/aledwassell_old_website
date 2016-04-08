@@ -13,6 +13,9 @@ ul a {
 .header {
   padding: 15% 0 15% 0;
 }
+.social {
+  padding: 15px 15px 0 0; 
+}
 .social a {
   display: inline-block;
   padding: 10px;
