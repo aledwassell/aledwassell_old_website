@@ -13,9 +13,13 @@ ul a {
 .header {
   padding: 15% 0 15% 0;
 }
-a.icon {
-  width: 30px;
-  height: 30px;
+.social a {
+  display: inline-block;
+  padding: 10px;
+}
+.social a img {
+  width: 40px;
+  height: 40px;
 }
 
 .jumbotron {
