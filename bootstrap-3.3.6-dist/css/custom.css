@@ -62,3 +62,9 @@ ul a:hover {
   color: #8c8c8c;
   text-decoration: none;
 }
+#icon-gray i {
+  color: #8c8c8c;
+}
+#icon-white i {
+  color: #fff;
+}
