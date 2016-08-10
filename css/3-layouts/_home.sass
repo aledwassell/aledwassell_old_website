@@ -1,0 +1,47 @@
+// pages vars
+$gray: #777
+$orange: #ffaa1f
+$focus: #5CD3A3
+
+$tamagobouya-h1: #518888
+$tamagobouya-color: #529ecc
+$tamagobouya-bg: #d8fffb
+
+body
+  background-color: white
+  // font-family: $helvetica
+
+// jumbotron modules
+#tamagobouya
+  background: $tamagobouya-bg
+  color: $tamagobouya-color
+  h1
+    color: $tamagobouya-h1
+
+// About modules
+#about
+  color: $gray
+  background: $orange
+  .jumbotron-logo
+    border-radius: 50%
+
+  #resume_button
+    color: $gray
+    border: solid 2px $gray
+    background: none
+    text-transform: uppercase
+    +position(absolute, 15vh 30vh auto auto)
+
+    &:hover,
+    &:focus
+      background: $gray
+      border: solid 2px $orange
+      color: $orange
+
+
+    @media (max-width: 900px)
+      position: static
+      margin: 10px auto 10px auto
+
+.cards
+  margin: 25px auto 10px

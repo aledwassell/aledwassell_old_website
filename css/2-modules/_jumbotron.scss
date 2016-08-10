@@ -1,0 +1,36 @@
+.jumbotron {
+  $large-screen: 100em !default;
+  position: relative;
+  color: white;
+  align-items: center;
+  background: white;
+  display: flex;
+  justify-content: center;
+  min-height: 40em;
+  padding: 2em;
+
+  .jumbotron-content {
+    max-width: 80%;
+    margin: 0;
+    text-align: center;
+
+
+    @include media($large-screen) {
+      text-align: left;
+    }
+  }
+
+  .jumbotron-logo {
+    margin: 20px;
+    border-radius: 0
+  }
+
+
+  h1 {
+    font-size: 4em;
+
+    @media (max-width: 900px) {
+      margin: 20px 0 20px 0
+    }
+  }
+}
