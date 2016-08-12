@@ -599,7 +599,13 @@ body {
   background: #d8fffb;
   color: #529ecc; }
   #tamagobouya h1 {
-    color: #518888; }
+    font-size: 2em;
+    color: #518888;
+    font-family: "Roboto Slab", serif; }
+    @media screen and (min-width: 900px) {
+      #tamagobouya h1 {
+        font-size: 6em;
+        font-family: "Roboto Slab", serif; } }
 
 #about {
   color: #777;

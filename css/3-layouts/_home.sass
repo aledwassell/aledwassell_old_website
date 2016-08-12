@@ -93,8 +93,15 @@ body
 #tamagobouya
   background: $tamagobouya-bg
   color: $tamagobouya-color
+
   h1
+    font-size: 2em
     color: $tamagobouya-h1
+    font-family: $header
+
+    @include media($large-screen)
+      font-size: 6em
+      font-family: $header
 
 // About modules
 #about
