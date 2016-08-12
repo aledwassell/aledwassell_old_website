@@ -28,19 +28,33 @@
     margin-bottom: $base-spacing;
   }
 
-  .footer-social {
-    display: inline;
-    margin: 100px 70px 30px 70px;
+  ul {
+    flex-basis: 13em;
+    flex-shrink: 0;
+    margin-bottom: $base-spacing * 2;
+    padding: 0;
   }
-  .footer-social a {
+
+  li {
+    line-height: 1.5em;
+    list-style: none;
+    text-align: center;
+  }
+
+  li a {
     color: $footer-link-color;
     text-decoration: none;
-    margin: 10px 30px 10px 30px;
 
     &:focus,
     &:hover {
       color: transparentize($footer-color, 0);
     }
+  }
+
+  li h3 {
+    color: $footer-color;
+    font-size: 1em;
+    margin-bottom: 0.4em;
   }
 
   hr {
@@ -57,13 +71,4 @@
     max-width: 35em;
     text-align: center;
   }
-    a {
-      color: $footer-link-color;
-      text-decoration: none;
-
-      &:focus,
-      &:hover {
-        color: transparentize($footer-color, 0);
-      }
-    }
 }

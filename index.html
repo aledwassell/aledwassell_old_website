@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aled Wassell | Developer</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
+
+
+
   <!-- font awesome -->
   <script src="https://use.fontawesome.com/4bf81a19dd.js"></script>
 
@@ -17,58 +21,38 @@
 </head>
 <body>
 
-<!-- Hero section with parallax -->
+<!-- Hero -->
+<header class="navigation-centered" role="banner">
+  <div class="navigation-centered-wrapper">
+    <a href="javascript:void(0)" class="mobile-logo">
+      <img src="images/logo_small.png" alt="Logo image">
+    </a>
+    <a href="javascript:void(0)" id="js-navigation-centered-mobile-menu" class="navigation-centered-mobile-menu">MENU</a>
+    <nav role="navigation">
+      <ul id="js-navigation-centered-menu" class="navigation-centered-menu show">
+        <li class="nav-link"><a href="#about">about me</a></li>
+        <li class="nav-link"><a href="http://tamagobouya.tumblr.com/" target="_blank" >blog</a></li>
+        <li class="nav-link logo">
+          <a href="javascript:void(0)" class="logo">
+            <img src="images/logo_big.svg" alt="Logo image">
+          </a>
+        </li>
+        <li class="nav-link"><a href="javascript:void(0)">contact</a></li>
+        <li class="nav-link"><a href="aledwassell_CV.pdf" target="_blank" id="nav-resume" >resume</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
 
 <div class="hero">
   <div class="hero-content">
-    <img src="images/logo_small.png" alt="Logo Image" class="hero-logo">
-    <h1>Aled Wassell</h1>
-    <h2>A British developer in Tokyo.</h2>
+    <h1>Web Developer</h1>
+    <h3>Aled Wassell is a British developer in Tokyo.</h3>
   </div>
 </div>
 
 <!-- //////////////////////////////// *main-content* ////////////////////////////////-->
-
-<!-- cards -->
-
-<div class="cards">
-  <div class="card">
-    <div class="card-image">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt="">
-    </div>
-    <div class="card-header">
-      First Card
-    </div>
-    <div class="card-copy">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt="">
-    </div>
-    <div class="card-header">
-      Another Card
-    </div>
-    <div class="card-copy">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
-    </div>
-    <div class="card-header">
-      The Last Card
-    </div>
-    <div class="card-copy">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    </div>
-  </div>
-</div>
-<!-- cards end -->
 
 <!-- About -->
 <div class="jumbotron" id="about">
@@ -76,8 +60,8 @@
     <img src="images/aled.jpg" alt="Logo Image" class="jumbotron-logo">
     <h1>About Me</h1>
     <h2>I am a British Developer in Tokyo</h2>
-    <div class="resume">
-      <button type="button" name="resume" id="resume_button">Resume</button>
+    <div class="resume" id="resume">
+      <a href="aledwassell_CV.pdf" target="_blank"><button type="button" name="resume" id="resume_button">Resume</button></a>
     </div>
     <p>
       I've lived in Japan for the and a half years now and it's been a really enriching experience!
@@ -91,7 +75,7 @@
 <div class="jumbotron" id="tamagobouya">
   <div class="jumbotron-content">
     <a href="http://tamagobouya.tumblr.com/" target="_blank"><img src="images/tamagobouya.png" alt="Logo Image" class="jumbotron-logo"></a>
-    <h1>たまごぼうや！</h1>
+    <a href="http://tamagobouya.tumblr.com/" target="_blank"><h1>たまごぼうや！</h1></a>
     <h2>Look at my blog!</h2>
     <p>
       I created this blog about three years ago, it was originally a gateway to show off picture to friends and family back in England, but now I primarily use it as a developer blog.
@@ -103,7 +87,7 @@
 
   <footer class="footer" role="contentinfo">
   <div class="footer-logo">
-    <img src="images/Logo W + A.png" alt="Logo image">
+    <a href="index.html"><img src="images/logo_small.png" alt="Logo image"></a>
   </div>
   <div class="footer-links">
     <div class="footer-social">

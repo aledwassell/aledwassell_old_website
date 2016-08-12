@@ -1,18 +1,17 @@
 .hero {
-  $large-screen: 20em !default;
-
+  $large-screen: 50em !default;
   align-items: center;
-  background: url("https://raw.githubusercontent.com/thoughtbot/empties/master/source/images/background-image.png");
+  background: image-url("background-image.png");
   background-position: right;
   background-size: none;
   display: flex;
   justify-content: center;
-  min-height: 10em;
+  min-height: 25em;
   padding: 2em;
 
   @include media($large-screen) {
-    background-size: cover;
     background-position: left;
+    background-size: cover;
     justify-content: flex-end;
   }
 
@@ -27,6 +26,5 @@
 
   .hero-logo {
     margin: auto;
-    border-radius: 0
   }
 }

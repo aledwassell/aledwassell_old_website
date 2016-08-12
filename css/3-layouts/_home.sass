@@ -1,17 +1,95 @@
-// pages vars
-$gray: #777
-$orange: #ffaa1f
-$focus: #5CD3A3
+@import "vars"
 
-$tamagobouya-h1: #518888
-$tamagobouya-color: #529ecc
-$tamagobouya-bg: #d8fffb
+@mixin fonts
+  h1, h2, h3, h4, h5, h6, p, a
+    font-family: $font
+    letter-spacing: 1px
+
+@mixin button
+  color: lighten($focus, 50%)
+  background: $focus
+  text-transform: uppercase
+  +position(relative, 0px 0 0 0px)
+  box-shadow: 5px 5px 0px lighten($focus, 30%)
+
+  &:hover,
+  &:focus
+    background: darken($focus, 10%)
+    color: $white
+
+  &:active
+    +position(relative, 0px 0 0 0px)
+    top: 5px
+    left: 5px
+    box-shadow: 0px 0px 0px lighten($focus, 30%)
 
 body
   background-color: white
-  // font-family: $helvetica
+  @include fonts
 
-// jumbotron modules
+//Navigation styles
+.navigation-centered
+  background-color: $purple
+  padding: 15px 20px 10px 20px
+
+  .nav-link a
+    text-transform: uppercase
+    color: #fff
+
+  ul li.nav-link:last-child a
+    @include media ($large-screen)
+    padding: 2px 6px 2px 6px
+    color: $focus
+    margin-left: 0
+    &:hover
+      color: $white
+      background: $focus
+
+//Hero styles
+.hero
+  $large-screen: 50em !default
+  color: $white
+  align-items: center
+  background-color: $purple
+  // background: none
+  display: flex
+  justify-content: center
+  min-height: 30em
+  padding: 2em
+
+  h1
+    font-size: 4em
+    font-family: $header
+
+    @include media($large-screen)
+      font-size: 6em
+      font-family: $header
+
+  h3
+    text-transform: uppercase
+
+  @include media($large-screen)
+    background-position: left
+    background-size: cover
+    justify-content: flex-end
+
+  .hero-content
+    position: relative
+    max-width: 80%
+    text-align: center
+
+    @include media($large-screen)
+      text-align: right
+
+    .hero-logo
+      margin: auto
+
+      @include media($large-screen)
+        text-align: right
+
+
+
+// *********** jumbotron modules ****************
 #tamagobouya
   background: $tamagobouya-bg
   color: $tamagobouya-color
@@ -25,23 +103,17 @@ body
   .jumbotron-logo
     border-radius: 50%
 
-  #resume_button
-    color: $gray
-    border: solid 2px $gray
-    background: none
-    text-transform: uppercase
+  #resume
     +position(absolute, 15vh 30vh auto auto)
-
-    &:hover,
-    &:focus
-      background: $gray
-      border: solid 2px $orange
-      color: $orange
-
 
     @media (max-width: 900px)
       position: static
       margin: 10px auto 10px auto
 
-.cards
-  margin: 25px auto 10px
+  #resume_button
+    @include button
+
+
+.footer
+  .footer-social a
+    margin: auto 10px auto 10px
