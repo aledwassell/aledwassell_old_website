@@ -554,8 +554,7 @@ body {
     color: #fff; }
   .navigation-centered ul li.nav-link:last-child a {
     padding: 2px 6px 2px 6px;
-    color: #5CD3A3;
-    margin-left: 0; }
+    color: #5CD3A3; }
     .navigation-centered ul li.nav-link:last-child a:hover {
       color: #fff;
       background: #5CD3A3; }
