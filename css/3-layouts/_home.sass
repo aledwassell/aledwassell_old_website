@@ -111,6 +111,14 @@ body
   .jumbotron-logo
     border-radius: 50%
 
+  h1
+    font-size: 2em
+    font-family: $header
+
+    @include media($large-screen)
+      font-size: 4em
+      font-family: $header
+
   #resume
     +position(absolute, 15vh 30vh auto auto)
 
@@ -132,6 +140,7 @@ body
       color: white
       display: block
       padding: 20px 40px
+
       margin: 40px auto
 
 

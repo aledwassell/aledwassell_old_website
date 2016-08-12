@@ -612,6 +612,13 @@ body {
   background: #ffaa1f; }
   #about .jumbotron-logo {
     border-radius: 50%; }
+  #about h1 {
+    font-size: 2em;
+    font-family: "Roboto Slab", serif; }
+    @media screen and (min-width: 900px) {
+      #about h1 {
+        font-size: 4em;
+        font-family: "Roboto Slab", serif; } }
   #about #resume {
     position: absolute;
     top: 15vh;
