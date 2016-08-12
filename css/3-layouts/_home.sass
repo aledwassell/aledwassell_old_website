@@ -11,6 +11,7 @@
   text-transform: uppercase
   +position(relative, 0px 0 0 0px)
   box-shadow: 5px 5px 0px lighten($focus, 30%)
+  cursor: pointer
 
   &:hover,
   &:focus
@@ -58,7 +59,7 @@ body
   padding: 2em
 
   h1
-    font-size: 4em
+    font-size: 3em
     font-family: $header
 
     @include media($large-screen)
@@ -100,7 +101,7 @@ body
     font-family: $header
 
     @include media($large-screen)
-      font-size: 6em
+      font-size: 4em
       font-family: $header
 
 // About modules
@@ -122,5 +123,21 @@ body
 
 
 .footer
+  .contact
+    #contact_button
+      @include button
+      text-decoration: none
+      background-color: #777
+      box-shadow: none
+      color: white
+      display: block
+      padding: 20px 40px
+      margin: 40px auto
+
+
+
+
+
+
   .footer-social a
     margin: auto 10px auto 10px
