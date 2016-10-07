@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang "en">
+<html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,13 +32,13 @@
 <body>
 
 <!-- Hero -->
-<header class="navigation-centered" role="banner">
+<header class="navigation-centered">
   <div class="navigation-centered-wrapper">
     <a href="javascript:void(0)" class="mobile-logo">
       <img src="images/logo_small.png" alt="Logo image">
     </a>
     <a href="javascript:void(0)" id="js-navigation-centered-mobile-menu" class="navigation-centered-mobile-menu">MENU</a>
-    <nav role="navigation">
+    <nav>
       <ul id="js-navigation-centered-menu" class="navigation-centered-menu show">
         <li class="nav-link"><a href="#about">about me</a></li>
         <li class="nav-link"><a href="http://tamagobouya.tumblr.com/" target="_blank" >blog</a></li>
@@ -71,7 +71,7 @@
     <h1>About Me</h1>
     <h2>I am a British Developer in Tokyo</h2>
     <div class="resume" id="resume">
-      <a href="aledwassell_CV.pdf" target="_blank"><button type="button" name="resume" id="resume_button">Resume</button></a>
+      <button type="button" name="resume" alt="contact" id="resume_button" onclick="location.href='aledwassell_CV.pdf'">Resume</button>
     </div>
     <p>
       I've lived in Japan for three and a half years now and it's been a really enriching experience!<br/>
@@ -95,13 +95,13 @@
 
 <!--//////////////////// *footer* ////////////////////-->
 
-  <footer class="footer" role="contentinfo">
+  <footer class="footer">
   <div class="footer-logo">
     <a href="index.html"><img src="images/logo_small.png" alt="Logo image"></a>
   </div>
 
   <div class="contact" id="contact">
-    <a href="mailto:aledwassell@gmail.com?Subject=Hey" target="_top"><button type="button" name="contact" id="contact_button">contact me</button></a>
+    <button type="button" name="contact" alt="contact" id="contact_button" onclick="location.href='mailto:aledwassell@gmail.com?Subject=Hey'">contact me</button>
   </div>
 
   <div class="footer-links">
@@ -116,7 +116,7 @@
   <hr>
 
   <p>
-    <a href="index.html">aledwassell.com &copy</a>
+    <a href="index.html">aledwassell.com &copy;</a>
   </p>
 </footer>
 </body>
