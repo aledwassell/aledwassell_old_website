@@ -493,30 +493,6 @@ table {
     padding: 2em 2em 3em 2em;
     text-decoration: none;
     transition: all 0.2s ease-in-out; }
-    .flex-boxes .flex-box:nth-child(1) {
-      border-top: 6px solid tomato; }
-      .flex-boxes .flex-box:nth-child(1):focus, .flex-boxes .flex-box:nth-child(1):hover {
-        background-color: rgba(255, 99, 71, 0.1); }
-    .flex-boxes .flex-box:nth-child(2) {
-      border-top: 6px solid #72BFBF; }
-      .flex-boxes .flex-box:nth-child(2):focus, .flex-boxes .flex-box:nth-child(2):hover {
-        background-color: rgba(114, 191, 191, 0.1); }
-    .flex-boxes .flex-box:nth-child(3) {
-      border-top: 6px solid #92B1E3; }
-      .flex-boxes .flex-box:nth-child(3):focus, .flex-boxes .flex-box:nth-child(3):hover {
-        background-color: rgba(146, 177, 227, 0.1); }
-    .flex-boxes .flex-box:nth-child(4) {
-      border-top: 6px solid #E3D743; }
-      .flex-boxes .flex-box:nth-child(4):focus, .flex-boxes .flex-box:nth-child(4):hover {
-        background-color: rgba(227, 215, 67, 0.1); }
-    .flex-boxes .flex-box:nth-child(5) {
-      border-top: 6px solid #CCC; }
-      .flex-boxes .flex-box:nth-child(5):focus, .flex-boxes .flex-box:nth-child(5):hover {
-        background-color: rgba(204, 204, 204, 0.1); }
-    .flex-boxes .flex-box:nth-child(6) {
-      border-top: 6px solid #F6C05C; }
-      .flex-boxes .flex-box:nth-child(6):focus, .flex-boxes .flex-box:nth-child(6):hover {
-        background-color: rgba(246, 192, 92, 0.1); }
     .flex-boxes .flex-box img {
       display: block;
       height: 3em;
@@ -532,6 +508,28 @@ table {
       margin: auto; }
   .flex-boxes .flex-box-big {
     flex: 1 1 40em; }
+  .flex-boxes .flex-box-image {
+    background: url("http://cdn3-www.dogtime.com/assets/uploads/2009/06/bolognese-dog.jpg");
+    background-color: #f7f7f7;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.parallax-one {
+  background-image: url("/images/city.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-two {
+  background-image: url("/images/rainbow_bridge.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .jumbotron {
   position: relative;

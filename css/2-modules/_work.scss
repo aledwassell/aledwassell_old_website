@@ -38,18 +38,6 @@
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 
-    @for $i from 1 to 7 { // assign colors from $flex-box-top-colors list
-      &:nth-child(#{$i}) {
-        $color-from-list: nth($flex-box-top-colors, $i);
-        border-top: 6px solid $color-from-list;
-
-        &:focus,
-        &:hover {
-          background-color: transparentize($color-from-list, 0.9);
-        }
-      }
-    }
-
     img {
       display: block;
       height: 3em;
@@ -72,5 +60,14 @@
 
   .flex-box-big {
     flex: 1 1 40em;
+  }
+
+  .flex-box-image {
+    background: url("http://cdn3-www.dogtime.com/assets/uploads/2009/06/bolognese-dog.jpg");
+    // &:nth-child(2)background: url("https://i.ytimg.com/vi/Xx6t0gmQ_Tw/maxresdefault.jpg");
+    background-color: $flex-box-background;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
