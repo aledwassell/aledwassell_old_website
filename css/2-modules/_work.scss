@@ -1,3 +1,11 @@
+#work{
+  h1, p{
+    text-align: center;
+    font-family: inherit;
+    color: $gray;
+  }
+}
+
 .flex-boxes {
   $base-border-radius: 3px !default;
   $base-background-color: white !default;
@@ -7,7 +15,7 @@
   $flex-box-border-color: $light-gray;
   $flex-box-border: 1px solid $flex-box-border-color;
   $flex-box-background: lighten($light-gray, 10%);
-  $flex-box-gutter: 0.4em;
+  $flex-box-gutter: 0.5em;
   $flex-box-width: 18em;
   $flex-box-color: transparentize($base-font-color, 0.3);
   $flex-box-top-colors:
@@ -27,22 +35,25 @@
   text-align: center;
 
   .flex-box {
+    height: 15em;
     align-self: stretch;
     background: $flex-box-background;
     border-radius: $base-border-radius;
     box-shadow: inset 0 0 1px $flex-box-border-color, 0 2px 4px darken($base-background-color, 10%);
-    display: block;
+    display: flex;
+    position: relative;
     flex: 2 2 15em;
     margin: $flex-box-gutter;
-    padding: 2em 2em 3em 2em;
+    padding: 6em 2em 6em 2em;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 
     img {
-      display: block;
+      position: absolute;
+      right: 0.8em;
+      bottom: 0.8em;
       height: 3em;
       margin: 0 auto 1em;
-      opacity: 0.4;
     }
 
     .flex-title {
