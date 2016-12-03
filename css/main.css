@@ -514,6 +514,10 @@ table {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover; }
+  .flex-boxes .grammar {
+    background: url("http://www.mariowiki.com/images/thumb/c/cb/Donkey_Kong_Artwork_(alt)_-_Donkey_Kong_Country_Tropical_Freeze.png/300px-Donkey_Kong_Artwork_(alt)_-_Donkey_Kong_Country_Tropical_Freeze.png"); }
+  .flex-boxes .oton_glass {
+    background: url("http://www.pitara.com/wordpress/wp-content/uploads/2001/11/mad-cow.jpg"); }
 
 .parallax-one {
   background-image: url("/images/city.jpg");
