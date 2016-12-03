@@ -509,15 +509,18 @@ table {
   .flex-boxes .flex-box-big {
     flex: 1 1 40em; }
   .flex-boxes .flex-box-image {
-    background: url("http://cdn3-www.dogtime.com/assets/uploads/2009/06/bolognese-dog.jpg");
     background-color: #f7f7f7;
-    background-position: top;
+    background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover; }
   .flex-boxes .grammar {
-    background: url("http://www.mariowiki.com/images/thumb/c/cb/Donkey_Kong_Artwork_(alt)_-_Donkey_Kong_Country_Tropical_Freeze.png/300px-Donkey_Kong_Artwork_(alt)_-_Donkey_Kong_Country_Tropical_Freeze.png"); }
+    background: url("/images/pluralizer.png");
+    background-position: center;
+    background-size: cover; }
   .flex-boxes .oton_glass {
-    background: url("http://www.pitara.com/wordpress/wp-content/uploads/2001/11/mad-cow.jpg"); }
+    background: url("/images/oton.png");
+    background-position: center;
+    background-size: cover; }
 
 .parallax-one {
   background-image: url("/images/city.jpg");

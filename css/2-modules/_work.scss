@@ -63,17 +63,19 @@
   }
 
   .flex-box-image {
-    background: url("http://cdn3-www.dogtime.com/assets/uploads/2009/06/bolognese-dog.jpg");
-    // &:nth-child(2)background: url("https://i.ytimg.com/vi/Xx6t0gmQ_Tw/maxresdefault.jpg");
     background-color: $flex-box-background;
-    background-position: top;
+    background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .grammar{
-    background: url("http://www.mariowiki.com/images/thumb/c/cb/Donkey_Kong_Artwork_(alt)_-_Donkey_Kong_Country_Tropical_Freeze.png/300px-Donkey_Kong_Artwork_(alt)_-_Donkey_Kong_Country_Tropical_Freeze.png");
+    background: url("/images/pluralizer.png");
+    background-position: center;
+    background-size: cover;
   }
   .oton_glass{
-    background: url("http://www.pitara.com/wordpress/wp-content/uploads/2001/11/mad-cow.jpg");
+    background: url("/images/oton.png");
+    background-position: center;
+    background-size: cover;
   }
 }
