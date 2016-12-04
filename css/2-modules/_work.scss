@@ -16,7 +16,7 @@ $tamagobouya-bg: #d8fffb;
   $flex-box-border-color: $light-gray;
   $flex-box-border: 1px solid $flex-box-border-color;
   $flex-box-background: lighten($light-gray, 10%);
-  $flex-box-gutter: 0em;
+  $flex-box-gutter: 0.4em;
   $flex-box-width: 18em;
   $flex-box-color: transparentize($base-font-color, 0.3);
 
@@ -36,7 +36,8 @@ $tamagobouya-bg: #d8fffb;
     position: relative;
     bottom: 5px;
     flex: 2 2 15em;
-    margin: $flex-box-gutter;
+    // margin: $flex-box-gutter;
+    // border-radius: $base-border-radius;
     padding: 6em 2em 6em 2em;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
